@@ -54,7 +54,7 @@ export LAZYLLM_QWEN_API_KEY=***
 
 ### 2. 运行脚本
 
-``` shell
+``` 
 python src/rag/rag_retrieve.py
 ```
 ---
