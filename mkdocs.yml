@@ -2,5 +2,6 @@ site_name: lazyllm-rag
 docs_dir: docs
 
 nav:
+  - 首页: index.md
   - 快速开始: getting-started.md
   - 使用指南: usage.md

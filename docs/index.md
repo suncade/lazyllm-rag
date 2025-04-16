@@ -15,3 +15,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## 下一步
+
+- 查看 [快速开始](getting-started.md) 运行项目。
