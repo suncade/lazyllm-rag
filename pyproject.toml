@@ -5,6 +5,9 @@ description = ""
 authors = ["sundebiao <sundebiao@sensetime.com>"]
 readme = "README.md"
 
+[tool.poetry.dependencies]
+python = "^3.10.17"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
