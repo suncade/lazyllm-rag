@@ -1,24 +1,9 @@
 [tool.poetry]
-name = "ll"
+name = "lazyllm-rag"
 version = "0.1.0"
 description = ""
 authors = ["sundebiao <sundebiao@sensetime.com>"]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.10.17"
-flake8 = "^7.2.0"
-pytest = "^8.3.5"
-mkdocs = "^1.6.1"
-typing-extensions = "^4.13.2"
-pre-commit = "^4.2.0"
-
-[tool.flake8]
-exclude = [
-    "./.venv/**",
-]
-max-complexity = 10
-max-line-length = 121
 
 [build-system]
 requires = ["poetry-core"]
