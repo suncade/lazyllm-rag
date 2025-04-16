@@ -7,7 +7,6 @@ tmp/
 build
 *.lock
 *.db
-mkdocs.yml
 .temp
 .venv
 .pytest_cache
