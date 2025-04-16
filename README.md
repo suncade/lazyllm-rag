@@ -34,7 +34,6 @@ $ brew install python@3.10
 poetry env use /usr/local/Cellar/python@3.10/3.10.17/bin/python3.10
 source .venv/bin/activate
 pip install -r requirements.txt
-poetry install
 ```
 
 ---

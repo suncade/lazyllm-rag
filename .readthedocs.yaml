@@ -16,6 +16,6 @@ python:
     - method: pip
       path: .
       requirements: requirements.txt
-    - method: poetry
-      path: .
   system_packages: true
+  virtualenv:
+    path: .venv
