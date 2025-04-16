@@ -21,6 +21,9 @@ $ export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
 $ export LDFLAGS="-L/opt/homebrew/opt/sqlite/lib"
 $ export CPPFLAGS="-I/opt/homebrew/opt/sqlite/include”
 $ brew install python@3.10
+
+安装poetry
+    例如mackbook: brew install poetry
 ```
 
 ### 创建虚拟环境
@@ -28,11 +31,9 @@ $ brew install python@3.10
 在项目根目录下依次执行以下命令：
 
 ```
-pyenv install 3.10.9
-poetry init
-poetry env use 3.10.9
-poetry shell
-pip install lazyllm
+poetry env use /usr/local/Cellar/python@3.10/3.10.17/bin/python3.10
+source .venv/bin/activate
+pip install -r requirements.txt
 poetry install
 ```
 
